@@ -1,0 +1,91 @@
+.bg-light{
+    background-color: rgb(220 220 220) !important;
+}
+.ml-2{
+    margin-right:20px !important;
+    margin-left: 50px !important;
+}
+.btn-danger{
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #98002e;
+    padding: 6px 12px 8px;
+    border-style: none;
+}
+.slider-track {
+  transition: transform 0.6s ease-in-out;
+}
+
+/* vertical line after each article */
+.article-item {
+  border-right: 1px solid #ccc;
+}
+
+/* remove last line if you want (optional) */
+.article-item:last-child {
+  border-right: none;
+}
+
+.article-link {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.article-link:hover {
+  color: #dc3545;
+  text-decoration: underline;
+}
+.fade-track {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.fade-item {
+  transition: opacity 1s ease-in-out;
+}
+
+/* vertical line */
+.article-item {
+  border-right: 1px solid #ccc;
+}
+
+/* remove last border */
+.article-item:last-child {
+  border-right: none;
+}
+
+/* link style */
+.article-link {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.article-link:hover {
+  color: #dc3545;
+  text-decoration: underline;
+}
+
+/* circular arrow buttons */
+.arrow-btn {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+/* fade animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.btn-outline-dark:hover{
+    background-color: #98002e !important;
+}

@@ -1,0 +1,32 @@
+.bg-light1 {
+  /* overlay color + image */
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.7),   /* top transparent black overlay */
+      rgba(0, 0, 0, 0.7)    /* bottom same overlay */
+    ),
+    url('../images/sidebarbg.jpg'); /* image path (public folder recommended) */
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.text-dark:hover {
+    background: red !important;
+}
+.text-dark{
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    color:white !important;
+}
+
+.text-child-dark:hover {
+    background: rgb(43, 196, 181) !important;
+}
+
+.text-child-dark{
+    font-size: 18px !important;
+    font-weight: 300 !important;
+    color:white !important;
+    margin-left:20px;
+}

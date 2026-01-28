@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import LoginPage from "../pages/Login";
 import AdminDashboard from "../pages/AdminDashboard";
@@ -14,7 +15,7 @@ import Home from "../pages/Home";
 
 function AppRouter() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<LoginPage />} />
         <Route path="/Home" element={<Home />} />
@@ -47,7 +48,7 @@ function AppRouter() {
         <Route path="/verify-otp" element={<VerifyOtp />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
